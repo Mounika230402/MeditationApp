@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeditateNow - Breathing Exercises</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">Calm Mind</div>
+      <div class="hamburger" onclick="toggleMenu()">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+      </div>
+      <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="breathing.html">Breathing Exercises</a></li>
+          <li><a href="relaxing.html">Relaxing Sounds</a></li>
+          <li><a href="binaural.html">Binaural Beats</a></li>
+      </ul>
+  </nav>
+
+  <!-- Sidebar for larger screens -->
+  <nav class="sidebar">
+      
+      <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="breathing.html">Breathing Exercises</a></li>
+          <li><a href="relaxing.html">Relaxing Sounds</a></li>
+          <li><a href="binaural.html">Binaural Beats</a></li>
+      </ul>
+  </nav>
+
+    <!-- Breathing Exercises Section -->
+    <!-- <section class="breathing">
+        <h2>Breathing Exercises</h2>
+        <div class="exercise-cards">
+            <div class="card">
+                <h3>4-7-8 Breathing</h3>
+                <button class="start-btn" onclick="startExercise(1)">Start</button>
+            </div>
+            <div class="card">
+                <h3>Box Breathing</h3>
+                <button class="start-btn" onclick="startExercise(2)">Start</button>
+            </div>
+            <div class="card">
+                <h3>Diaphragmatic Breathing</h3>
+                <button class="start-btn" onclick="startExercise(3)">Start</button>
+            </div>
+        </div>
+    </section> -->
+
+    <div class="content breathe">
+        <h1 class="relax-title">Relax & Breathe</h1>
+      
+        <div class="relax-card-container">
+          <div class="relax-card deep">
+            <img src="./images/breathing/deep-breathing.jpg" alt="Deep Breathing">
+            <div class="text">
+              <h2>Deep Breathing</h2>
+              <p class="relax-description">Deep breathing is one of the best ways to relax and let your worries go.</p>
+              <a href="https://www.healthline.com/health/diaphragmatic-breathing#" class="read-more-relax">Read More</a>
+            </div>
+            <a href="./breathe/deep.html">
+              <button class="selectBtn start-relax">Begin</button>
+            </a>
+          </div>
+      
+          <div class="relax-card another">
+            <img src="./images/breathing/four-seven-eight.jpg" alt="4-7-8 Breathing">
+            <div class="text">
+              <h2>4-7-8 Technique</h2>
+              <p class="relax-description">The 4-7-8 technique forces the mind and body to focus on regulating the breath.</p>
+              <a href="https://www.healthline.com/health/4-7-8-breathing" class="read-more-relax">Read More</a>
+            </div>
+            <a href="./breathe/fourSevenEight.html">
+              <button class="selectBtn start-relax">Begin</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+
+      <script src="./js/breathe.js"></script>
+</body>
+
+</html>
